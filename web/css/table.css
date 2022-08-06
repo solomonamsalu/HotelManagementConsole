@@ -1,0 +1,28 @@
+table, td, th {
+    border: 1px solid blue;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+td {
+    height: 50px;
+    vertical-align: bottom;
+}
+                    th {
+	background-color:indigo;
+	color: white;
+        font-size: 3em;
+                }
+                table {
+    border: 3px solid black;
+}
+body{
+    
+    background-color:skyblue;
+}
+	
+
+	

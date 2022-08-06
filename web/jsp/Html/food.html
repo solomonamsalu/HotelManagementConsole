@@ -1,0 +1,78 @@
+
+<html>
+
+    <head>
+        <style>
+
+button:hover{
+  cursor: pointer;
+  background: #428a7d;
+}
+ .d-flex{
+                           padding: 10%;
+                           border-radius:50px 50px 50px 50px;
+                           margin: 10%;
+                           height: 1050px;
+                           width: 70px;
+        font-size: 20px;
+      font-weight: 800;
+      color: navy;
+      font-family:Georgia;
+      font-style: italic;
+        width: 60%;
+  align-content: center;
+    background-color:#ac91de;
+      }
+      form{
+          
+          
+          padding-left: 20%;
+          border-radius: 15px;
+      }
+      .submit{
+         border-radius: 10px;
+         margin: 10px;
+         align-content: center;
+         color: red;
+         background-color: #a8b9ab;
+         
+                      
+          
+      }
+        
+        </style>
+    
+    </head>
+
+    <body>
+
+
+<div class="container">
+<div class="d-flex">
+    <h2>Restaurant ordering form</h2>
+    <form action="../guestspage/requestfood.jsp" method="post" >
+       
+           <h2>Order_Id *:<input type="text" name="fid" required></h2><br><br> 
+           <h2>First Name* :<input type="text" name="fname" required></h2> <br><br>
+        <h2>Last Name* :<input type="text" name="lname" required>  </h2> <br><br>
+        <h2>Country *:<select name="selection">
+        <option value="GUF">Ethiopia</option>
+        <option value="PYF">Somalia</option>
+        <option value="ATF">Eritra</option>
+        <option value="GAB">Egypt</option>
+    </select></h2> 
+            <h2>Phone* :<input type="tel" name="phone"> </h2></h2> <br><br>
+    
+      <h2>Email Address* : <input type="email" name="email">  <br><br>
+    
+          <h2>Payment*:<input type="text" name="pay"></h2> <br><br>
+         
+      <input type="submit" value="OrderRequest" name="submit" class="submit">  
+ 
+   </form>
+  </div>
+    
+ </div>
+         </form>          
+    </body>
+</html>
